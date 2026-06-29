@@ -23,9 +23,9 @@ int main(){
     struct cadastroProdutos registro[20];
     struct cadastroProdutos aux;
     float precoMedio, somaPrecos;
-    int opcao, pesquisa, cadastrado = 0, ordenado = 0;
+    int achouRegistro, cadastrado = 0, ordenado = 0;
+    int opcao, pesquisa;
     int inicio, meio, fim, encontrou;
-    int achouRegistro;
     int i, j;
 
     do{
